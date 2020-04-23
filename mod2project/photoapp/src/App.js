@@ -1,15 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import { BrowserRouter as Router,Link} from 'react-router-dom';
+import Route from 'react-router-dom/Route';
+import Navbar from 'Navbar.js';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
+export default class  extends Component {
+  render() {
+    return (
+      <Router>
+      <div className="App">
+        <header className="App_h">
+          <Navbar />
+           <switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/SignUp" exact component={SignUp} />
+          <Route path="/Login" exact exact component={Login} />
+          </switch> 
+        </header>
         
-      </header>
-    </div>
-  );
+      </div>
+      </Router> 
+    )
+  }
 }
-
-export default App;
