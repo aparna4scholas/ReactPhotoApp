@@ -4,7 +4,7 @@ function Pictures () {
 
 return(
 
-  <h1> </h1>
+  <h1> List of Pictures</h1>
 
 )
 }

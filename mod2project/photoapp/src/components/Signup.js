@@ -4,7 +4,7 @@ function Signup () {
 
 return(
 
-  <h1> </h1>
+  <h1>Signup  </h1>
 
 )
 }
