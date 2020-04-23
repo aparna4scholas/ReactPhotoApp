@@ -1,7 +1,9 @@
 
+.App {
+  text-align: center;
+}
 
-
-.nav_bar {
+nav {
 
   display: flex;
   justify-content: space-around;
