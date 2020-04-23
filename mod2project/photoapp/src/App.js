@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-//import { BrowserRouter as Router,Link} from 'react-router-dom';
-//import Route from 'react-router-dom/Route';
+import './App.css';
 import Navbar from './components/Navbar.js';
 import Home from './components/Home.js';
 import Login from './components/Login.js';
@@ -11,7 +10,7 @@ import {BrowserRouter as Router, Switch, Route  } from 'react-router-dom';
 export default class  extends Component {
   render() {
     return (  
-     
+     <Router>
       <div className="App">
        
           <Navbar />
@@ -29,6 +28,7 @@ export default class  extends Component {
         
         
       </div>
+      </Router>
       
     )
   }
