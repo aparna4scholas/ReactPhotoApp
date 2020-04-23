@@ -5,13 +5,14 @@ function Navbar () {
 return(
 
   
-  <nav>
+  <nav className="nav_bar">
    <h1> Picture Portal </h1>
    <ul>
        <li> Home</li>
        <li> Login</li>
+       <li> Signup</li>
+       <li> Pictures</li>
        
-
    </ul>
 
   </nav>
