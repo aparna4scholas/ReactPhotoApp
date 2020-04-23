@@ -2,7 +2,10 @@ import React from 'react';
 
 function Login () {
     return (
-        <p> Email</p>
+        <label> username</label>
+        <input type="text" name="username" placeholder="username"/>
+
+
     )
     }
     
