@@ -17,6 +17,7 @@ export default class  extends Component {
           <Route path="/Home" component={Home} />  
           <Route path="/Login" component={Login} /> 
           <Route path="/Signup" component={Signup} /> 
+          <Route path="/Pictures" component={Pictures} /> 
           
           <Pictures />
 
