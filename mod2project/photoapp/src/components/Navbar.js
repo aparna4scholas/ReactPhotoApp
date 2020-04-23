@@ -19,7 +19,7 @@ return(
        <Link to='Signup'>
        <li> Signup</li>
        </Link>
-       <Link>
+       <Link to='Pictures'>
        <li> Pictures</li>
        </Link>
        
