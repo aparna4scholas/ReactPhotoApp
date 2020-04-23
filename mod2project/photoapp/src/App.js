@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './App.css';
 import Navbar from './components/Navbar.js';
 import Home from './components/Home.js';
@@ -23,6 +23,9 @@ export default class  extends Component {
       
     );
   }
+
+
+
 }
 
 export default App;
