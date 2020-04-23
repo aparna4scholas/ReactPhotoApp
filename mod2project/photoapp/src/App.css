@@ -3,11 +3,13 @@
   text-align: center;
 }
 
-Navbar {
+.nav_bar {
 
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 8vh;
+  min-height: 12vh;
+  background-color:rgb(50, 55, 56);
+  color:white;
 
 }
