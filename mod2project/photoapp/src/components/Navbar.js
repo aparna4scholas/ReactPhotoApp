@@ -10,8 +10,13 @@ return(
   <nav>
    <h1> Picture Portal </h1>
    <ul className="navbar_link">
+       <Link>
        <li> Home</li>
+       </Link>
+       <Link>
        <li> Login</li>
+       </Link>
+       <Link>
        <li> Signup</li>
        <li> Pictures</li>
        
