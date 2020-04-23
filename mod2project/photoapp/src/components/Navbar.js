@@ -1,24 +1,10 @@
-function  Navbar() {
+import React from 'react';
 
-    const navStyle = {
-        color: 'white', 
-    }
-return (
+function Navbar () {
 
-    <div className="nav-container">
-        <ul> 
-        
-              <Link to="/" style={navStyle}>
-                  <li> Home </li>
-              </Link> 
-            
-       </ul>
+return(
 
-       
-
-
-
-    </div>
+  <h1> Home </h1>
 
 )
 }

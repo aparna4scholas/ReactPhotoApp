@@ -14,6 +14,7 @@ export default class  extends Component {
           <Route path="/" exact component={Home} />
           <Route path="/SignUp" exact component={SignUp} />
           <Route path="/Login" exact exact component={Login} />
+          <Route path="/Pictures" exact exact component={Pictures} />
           </switch> 
         </header>
         
