@@ -7,7 +7,7 @@ return(
   
   <nav>
    <h1> Picture Portal </h1>
-   <ul>
+   <ul className="navbar_link">
        <li> Home</li>
        <li> Login</li>
        <li> Signup</li>
