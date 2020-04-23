@@ -6,10 +6,11 @@ import Home from './components/Home.js';
 import Login from './components/Login.js';
 import Signup from './components/Signup.js';
 import Pictures from './components/Pictures.js';
+import {BrowserRouter as Router, Switch, Route  } from 'react-router-dom';
 
 export default class  extends Component {
   render() {
-    return (
+    return (  
      
       <div className="App">
        
