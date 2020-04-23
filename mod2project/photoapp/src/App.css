@@ -22,9 +22,12 @@ nav {
 }
 .login_d1 {
 
-  width: 100px;
+  margin:auto;
+  margin-top:40px ;
+  width: 400px;
   height: 200px;
-  border: solid;
-  margin: 30px;
+ 
+
+  
 
 }
