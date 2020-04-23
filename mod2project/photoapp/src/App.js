@@ -15,7 +15,9 @@ export default class  extends Component {
        
           <Navbar />
           <Route path="/Home" component={Home} />  
-          
+          <Route path="/Home" component={Home} /> 
+          <Route path="/Home" component={Home} /> 
+          <Route path="/Home" component={Home} /> 
           <Login />
           <Signup />
           <Pictures />
