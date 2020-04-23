@@ -7,8 +7,8 @@ import Signup from './components/Signup.js';
 import Pictures from './components/Pictures.js';
 import {BrowserRouter as Router, Switch, Route  } from 'react-router-dom';
 
-export default class  extends Component {
-  render() {
+function App() {
+  
     return (  
      <Router>
       <div className="App">
@@ -26,6 +26,6 @@ export default class  extends Component {
 
 
 
-}
+
 
 export default App;
