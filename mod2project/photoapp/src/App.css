@@ -9,12 +9,12 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 12vh;
-  background-color:rgb(50, 55, 56);
+  background-color:lightcoral;
   color:white;
 
 }
 .navbar_link {
-  width: 45%;
+  width: 60%;
   display: flex;
   justify-content: space-around;
   align-items: center;
