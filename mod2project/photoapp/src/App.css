@@ -16,4 +16,5 @@ nav {
 .navbar_link {
   width: 25%;
   display: flex;
+  justify-content: space-around;
 }
