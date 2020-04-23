@@ -14,7 +14,7 @@ export default class  extends Component {
       <div className="App">
        
           <Navbar />
-          <Route path="/Home" component={Home} />  
+          <Route path="/" component={Home} />  
           <Route path="/Login" component={Login} /> 
           <Route path="/Signup" component={Signup} /> 
           <Route path="/Pictures" component={Pictures} /> 
@@ -24,3 +24,5 @@ export default class  extends Component {
     );
   }
 }
+
+export default App;
