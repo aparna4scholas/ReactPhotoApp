@@ -21,8 +21,8 @@ return(
        </Link>
        <Link style={navStyle} to='Signup'>
        <li> Signup</li>
-       </Link>
-       <Link to='Pictures'>
+       </Link >
+       <Link style={navStyle} to='Pictures'>
        <li> Pictures</li>
        </Link>
        
