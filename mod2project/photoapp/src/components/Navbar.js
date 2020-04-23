@@ -10,7 +10,7 @@ return(
   <nav>
    <h1> Picture Portal </h1>
    <ul className="navbar_link">
-       <Link to=''>
+       <Link to='/Home'>
        <li> Home</li>
        </Link>
        <Link>
