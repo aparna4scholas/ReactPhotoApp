@@ -19,7 +19,9 @@ return(
        <Link>
        <li> Signup</li>
        </Link>
+       <Link>
        <li> Pictures</li>
+       </Link>
        
    </ul>
 
