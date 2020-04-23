@@ -4,7 +4,7 @@ function Navbar () {
 
 return(
 
-  <div className="App">
+  
   <nav>
    <h1> Picture Portal </h1>
    <ul>
@@ -16,7 +16,7 @@ return(
    </ul>
 
   </nav>
-  </div>
+ 
 
 )
 }
