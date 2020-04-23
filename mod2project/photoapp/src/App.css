@@ -13,3 +13,7 @@ nav {
   color:white;
 
 }
+.navbar_link {
+  width: 25%;
+  display: flex;
+}
