@@ -13,13 +13,13 @@ return(
   <nav>
    <h1> Picture Portal </h1>
    <ul className="navbar_link">
-       <Link to='/Home'>
+       <Link style={navStyle} to='/Home'>
        <li> Home</li>
        </Link>
-       <Link to='/Login'>
+       <Link style={navStyle} to='/Login'>
        <li> Login</li>
        </Link>
-       <Link to='Signup'>
+       <Link style={navStyle} to='Signup'>
        <li> Signup</li>
        </Link>
        <Link to='Pictures'>
