@@ -6,4 +6,7 @@
 --> clone file name to vs code
 --> create app file 
 --> add components under src file
--->
+--> create a Nav bar  
+--> install sass 
+--> give styles to the nav bar
+-->use flex properties for nav bar
