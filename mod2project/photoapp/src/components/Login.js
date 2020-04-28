@@ -1,20 +1,19 @@
 import React from 'react';
 
+
 function Login () {
     return (
-        <div className="login_d1">
-        <label className="label_1"> Email</label>
-        <input className="input_1" type="text" name="Email" placeholder="email "/> 
+        <div className="main-div">
+        <div className="form-group"> 
+        <label for="inputEmail"> Email</label>
+        <input className="form-control" type="email" name="Email" placeholder="email "/> </div> ,
        
-      
-         <label className="label_2"> Password</label>
-        <input className="input_2" type="text" name="password" placeholder="password "/>
-        </div>
-        <div> <button>
-            </button> 
-        </div>
-        
-            )
+      <div class="form-group">
+         <label for="pwd"> Password</label>
+        <input className="form-control" type="password" name="password" placeholder="password "/>
+        </div> 
+        </div> );
+
         }
     
 
