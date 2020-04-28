@@ -9,4 +9,5 @@
 --> create a Nav bar  
 --> install sass 
 --> give styles to the nav bar
--->use flex properties for nav bar
+--> use flex properties for nav bar
+--> import components in app.js
