@@ -11,6 +11,6 @@
 --> give styles to the nav bar
 --> use flex properties for nav bar
 --> import components in app.js
---> implement label and input to create email page.
+--> implement label and input tags  to create email page.
 --> create sign up form.
 --> add pictures in pictures.js by using gird propeties.
