@@ -7,7 +7,10 @@
 --> create app file 
 --> add components under src file
 --> create a Nav bar  
---> install sass 
+--> install sass and bootstrap. 
 --> give styles to the nav bar
 --> use flex properties for nav bar
 --> import components in app.js
+--> implement label and input to create email page.
+--> create sign up form.
+--> add pictures in pictures.js by using gird propeties.
